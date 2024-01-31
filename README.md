@@ -4,9 +4,13 @@ Date written: January 31, 2024
 Members: Daniel Ramirez, Mauricio Lopez, Patricio Rosental, Peterson Francois
 
 Member's Assigned Tasks:
+
 Daniel: Front-end web development
+
 Mauricio: Database development
+
 Peterson: Database development
+
 Patricio: Back-end JavaScript development
 
 *Our next milestone is to develop a database with the neecessary tables to store data.*
