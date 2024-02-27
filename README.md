@@ -1,5 +1,5 @@
 # Capstone-Project
-Date written: January 31, 2024
+Date written: February 26, 2024
 
 Members: Daniel Ramirez, Mauricio Lopez, Patricio Rosental, Peterson Francois
 
