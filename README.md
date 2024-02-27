@@ -13,8 +13,7 @@ Peterson: Database development
 
 Patricio: Back-end JavaScript development
 
-*Our next milestone is to develop a database with the neecessary tables to store data.*
-The following is our assigned tasks to reach our milestone:
+*Our next milestone is to develop the tables and script for the login and create an account, upload the into the webhost account and test it*
 
 Mauricio: Develop the tables for the shopping cart and create account page and test it. 
 
