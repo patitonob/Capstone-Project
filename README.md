@@ -16,13 +16,13 @@ Patricio: Back-end JavaScript development
 *Our next milestone is to develop a database with the neecessary tables to store data.*
 The following is our assigned tasks to reach our milestone:
 
-Mauricio: Produce all tables need to capture all data and test tables with sample data
+Mauricio: Develop the tables for the shopping cart and create account page and test it. 
 
 Peterson: Quailty assurance such as testing tables by inputting sample data and debugging
 
-Daniel: Develop the Login page to begin capturing the inital data from members who join the FalconFitness (i.e full name, email, password)
+Daniel: Develop the create an account and shopping cart html files.
 
-Patricio: Begin developing a script for our website using JavaScript to produce functionality throughout developed HTML files
+Patricio: Develop the script for the login page.
 
 
 
