@@ -1,0 +1,42 @@
+@page {
+    size: 8.5in 11in;
+    margin: 0.5in;
+    font-size: larger;
+
+}
+p.topbar{
+    background-color: black;
+}
+h1{
+    background: black;
+}
+
+p.paragraph2{
+    pointer-events: none;
+    cursor: default;
+}
+iframe{
+    visibility: hidden;
+    display: none;
+}
+form{
+    visibility: hidden;
+    display: none;
+}
+h2 {
+    visibility: hidden;
+    display: none;
+}
+table{
+    visibility: hidden;
+    display: none;
+}
+
+h3{
+    visibility: hidden;
+    display: none;
+}
+h4{
+    visibility: hidden;
+    display: none;
+}

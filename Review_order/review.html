@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <link rel="stylesheet" type="text/css" href="review.css">
+        <title> Review your Order</title>
+    </head>
+        <header>
+            <div class="logo">
+                <img src="Falcfitlogo.jpg" alt="logo" width="50" height="50">
+                
+                <h1>Falcons Fitness</h1>
+               
+            </div>
+        </header>
+        <main>
+            <div class="cart">
+              <h2>Your Cart</h2>
+              <ul id="cart-items">
+                <!-- Cart items will be added dynamically here -->
+              </ul>
+              <p>Total: $<span id="total">0</span></p>
+              <button id="buy-now-btn">Buy Now</button>
+            </div>
+          </main>
+</html>
+<!--
+    sample javascript
+    document.addEventListener('DOMContentLoaded', function() {
+    // Sample data representing items from the database
+    const items = [
+        { name: 'Product 1', price: 10 },
+        { name: 'Product 2', price: 15 },
+        { name: 'Product 3', price: 20 }
+    ];
+
+    const cartItemsElement = document.getElementById('cart-items');
+    const totalElement = document.getElementById('total');
+    const buyNowButton = document.getElementById('buy-now-btn');
+
+    // Function to render cart items
+    function renderCartItems() {
+        let total = 0;
+        cartItemsElement.innerHTML = '';
+        items.forEach(item => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${item.name} - $${item.price}`;
+            cartItemsElement.appendChild(listItem);
+            total += item.price;
+        });
+        totalElement.textContent = total;
+    }
+
+    // Initial rendering of cart items
+    renderCartItems();
+
+    // Event listener for Buy Now button
+    buyNowButton.addEventListener('click', function() {
+        alert('Thank you for your purchase!');
+        // Additional logic to process the purchase can be added here
+    });
+});
+-->

@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(dumbells.jpg);
+    background-size:cover;
+}
+
+header {
+    background-color: #050505;
+    color: #000000;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px; 
+}
+
+
+.navigation {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #ff0000; 
+}
+
+
+.logo img {
+    width: 100px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #030303;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    color: #c66767;
+}
+
+form button {
+    background-color: #ec1616;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h2{ 
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    color: white;
+    font:bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+h3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    color: white;
+    font:bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+ h5 {
+    text-align: left;
+    font-size: 50px;
+    margin-top: -30px;
+    margin-bottom: -9px;
+    color: white;
+    font:bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#welcomesec {
+    font-size: 35px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight: 900 ;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: white;
+}
+.product {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+.add-to-cart {
+    background-color: #ee1717;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.add-to-cart:hover {
+    background-color: #060606;
+}
+div.product{
+    float:left; 
+    display:inline; 
+    width: 25%;
+    margin-left: 50px;
+}
+
+.product input{
+    float: right;
+    width: 50px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    color: #ee1717;
+
+}
+.product label {
+    color: #ffffff;
+    margin-right:30px;
+
+}
+.about-us {
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.black-box {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px auto; /* Add margin to center the box and prevent it from touching the edges */
+    max-width: 1000px; /* Set a maximum width for the box */
+    box-sizing: border-box;
+}
+
+.black-box p {
+    font-size: 32px;
+    margin-bottom: 15px;
+}

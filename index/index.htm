@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+
+      <!-- 
+           Author: COP2822 Student
+      -->
+      
+      <title>COP2822 Student Sample Page</title>
+      <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+      <link rel="stylesheet" type="text/css" href="printSheet.css" media="print">
+
+   </head>
+
+   <body>
+       
+       <p class="topbar"><font size="+5">Welcome to my page!</font></p> 
+       
+       <br>
+       <h1>About me...</h1>
+       <iframe width="700px" height="500px" src="https://www.youtube.com/embed/qYjl11p3afM?autoplay=1" allow="autoplay" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       <p class="paragraph1">My name is <strong><font size="+1">Daniel Vela.</font></strong> I was born and raised in Colombia, Bogota, and I am 23 years old. I currently work for Walt Disney World. I have been working for Disney for a year and six months operating attractions. I moved to the US when I was 16 and started working operating attractions when I was 18. I love what I do for a living currently. I get to know people from different parts of the world, as well as learn the mechanics and operations of multiple roller coasters. Also, I find fascinating the role of computers in the operation of a complex machine like a roller coaster. The way the ride-track brakes and sensors communicate with the main computer and how some programming will make them operate based on certain conditions is interesting to watch. </p>
+       <p class="paragraph2">I am currently working on my A.S. degree in Information Technology at <a href="https://valenciacollege.edu" target="_blank">Valencia college.</a> Some of my goals in life are to work for the IT department at Walt Disney World or Universal Studios. Also, traveling outside of the US is one of my priorities for the near future. Another big goal and I think the most important is finding happiness and find stability. It may seem a little odd, but one of my goals is also to have enough time to invest in myself and my family, and at the same time, have some time for family and friends. </p>
+       
+       <h2>My Work</h2>
+       <table border=1>
+
+            <tr><th>Tutorial #</th><th>Classwork Assignment</th><th>Homework Assignment</th></tr>
+
+            <tr><td>1</td><td>Done</td><td><a href="Tutorial_1\Case_1\mathhigh.html" target="_blank">Math High</a></td></tr>
+            <tr><td>2</td><td>Done</td><td><a href="Tutorial_2\Case_2\uwlist.htm" target="_blank">Higher Ed</a></td></tr>
+            <tr><td>3</td><td>Done</td><td><a href="Tutorial_3\Case_3\crypt.htm.htm" target="_blank">Encryption</a></td></tr>
+            <tr><td>4</td><td>Done</td><td><a href="Tutorial_4\Case_4\lincoln.htm" target="_blank">American Rhetoric</a></td></tr>
+            <tr><td>5</td><td>Done</td><td>Sudoku</td></tr>
+            <tr><td>6</td><td>Done</td><td>Sports Blog</td></tr>
+            <tr><td>7</td><td>Done</td><td>Robert Frost</td></tr>
+            <tr><td>8</td><td></td><td>dessertWEB</td></tr>
+            <tr><td>9</td><td></td><td>Kelsey's Diner</td></tr>
+            <tr><td>10</td><td></td><td>SkyWeb</td></tr>
+
+       </table>
+       <h3>Table example</h3>
+       <table class="example" border="1">
+         <tr>
+             <td>NAME</td>
+             <td>EXAM 1</td>
+             <td>EXAM 2</td>
+             <td>EXAM 3</td>
+             <td>EXAM 4</td>
+         </tr>
+         <tr>
+             <td>Andres</td>
+             <td>45</td>
+             <td>55</td>
+             <td>100</td>
+             <td>90</td>
+         </tr>
+         <tr>
+             <td>Antonio</td>
+             <td>45</td>
+             <td>55</td>
+             <td>54</td>
+             <td>34</td>
+         </tr>
+         <tr>
+             <td>Diana</td>
+             <td>87</td>
+             <td>34</td>
+             <td>67</td>
+             <td>12</td>
+         </tr>
+         <tr>
+             <td>Chris</td>
+             <td>56</td>
+             <td>78</td>
+             <td>12</td>
+             <td>70</td>
+         </tr>
+ 
+     </table>
+
+   </body>
+   <h4>Form</h4>
+   <form>
+    <fieldset id="form">
+        <label for="name"> Name:
+            <input type="text" name="FirstName">
+        </label>
+        <label for="name"> Last Name: 
+            <input type="text" name="lastname"/>
+        </label>
+        
+        <label>
+            <legend>Choose one:</legend>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender"/>
+            <label for="gender">Female</label>
+            <input type="radio" name="gender"/>
+            <label for="gender">Other</label>
+            <input type="radio" name="gender"/>
+        </label>
+
+        <label>
+            <legend>Choose one:</legend> 
+            
+            <label for="colors">Red</label>
+            <input type="checkbox" name="colors">
+            <label for="colors">Blue</label>
+            <input type="checkbox" name="colors">
+            <label for="colors">White</label>
+            <input type="checkbox" name="colors">
+        </label>
+
+        <label>
+            <legend>Select your favorite Sport:</legend>
+            <select value="Sport">
+                <option value="Choose Below">Choose one:</option>
+                <option value="Soccer">Soccer</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Tennis">Tennis</option>
+                <option value="Baseball">Baseball</option>
+                <option value="Golf">Golf</option>
+                <option value="Running">Running</option>
+                <option value="Volleyball">Volleyball</option>
+                <option value="Badminton">Badminton</option>
+                <option value="Swimming">Swimming</option>
+                <option value="Boxing">Boxing</option>
+                <option value="Other">Other</option>
+            </select>
+        </label>
+        <br>
+        <label>What are your thoughts on Global Warming?</label>
+            <textarea name="commentBox" id="commentBox" rows="20" cols="50"></textarea>
+            <br>
+        <label for="password">Password (max 10 characters)</label>
+            <input type="password" id="password" name="password" maxlength="10" required="required"/>
+        </label>
+        <br>
+        <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+        <br>
+        <input type="submit" id="submit" value="Submit"/>
+
+    </fieldset>
+</form>
+   
+
+</html>
+

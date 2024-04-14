@@ -1,0 +1,172 @@
+header{
+    background-color: black;
+    padding: 0px;
+    position:fixed;
+    top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    font-style: oblique;
+}
+header h1 {
+    color: #f60d0d;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 90px;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+    margin-right: 10px;
+    float: left; 
+    display:block;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  nav ul li {
+    display:fixed;
+    margin-right: 40px;
+    margin-top: -60px;
+    float: inline-end;
+
+    
+
+    
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  /* Styles for cart button */
+  .cart-button {
+    background-color: #fc0000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .cart-button:hover {
+    background-color: #000000;
+  }
+  
+  .cart-count {
+    background-color: rgb(240, 232, 0);
+    color: rgb(0, 0, 0);
+    padding: 3px 8px;
+    border-radius: 50%;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+    left: -5px;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("Scard.jpg");
+    background-size: cover;
+    background-position:left;
+    margin: 0;
+    margin-top: 150px;
+    padding: 0;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h2{
+    color: #000000;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    float: center;
+    
+    
+}
+h3{
+    color:#ffffff;
+    font-size: 2em;         
+    font-weight: bold;        
+    margin-bottom: 65px;
+    margin-left: 30px;      
+    text-align: center;       
+    text-transform: uppercase;
+    float:center;
+    
+    
+}
+
+.product {
+
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 100px;
+    background-color: #060606;
+    display: flex;
+    
+}
+.product h4{
+    color: white;
+
+}
+.product p{
+    color: green;
+}
+.product img {
+    max-width: 290px;
+    
+}
+.product:hover{
+    transform: scale(1.1);
+}
+.add-to-cart {
+    background-color: #ee1717;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.add-to-cart:hover {
+    background-color: #060606;
+}
+div.product{
+    float:left; 
+    display:inline; 
+    width: 25%;
+    margin-left: 50px;
+}
+
+.product input{
+    float: right;
+    width: 50px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    margin-top: -30px;
+    font-size: 18px;
+    color: #ee1717;
+
+}
+.product label {
+    color: #ffffff;
+    margin-right:30px;
+
+}
